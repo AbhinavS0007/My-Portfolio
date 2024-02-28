@@ -1,0 +1,755 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    /* color: black; */
+
+  }
+  a:hover{
+    color: red;
+  }
+
+.complete-slider-con{
+    position: relative;
+    height: auto;
+    width: auto;
+    border: 4px solid #BFCC94;
+}
+
+/* .navbar-about-both-con{
+    height: 100vh;
+    width: auto;
+    background-color: #5C6B73;
+} */
+
+.complete-navbar-con{
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    text-wrap: wrap;
+    width: auto;
+    display: flex;
+    z-index: 2;
+    text-align: center;
+    justify-content: center;
+    color: #0D1821;
+    background-color: #738290;
+    border: 2px solid #BFCC94;
+}
+
+.navbar-name{
+    padding-top: 3vh;
+    text-decoration: none;
+    color: #0D1821;
+    font-size: 5vmin;
+}
+.navbar-collapse{
+    padding-top: 4vh;
+    display: flex;
+    color: black;
+    margin-left: 6vmin;
+    justify-content: center;
+}
+.navbar-li{
+    padding-left: 5vw;
+    color: black;
+    font-size: 3vmin;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar-text-name{
+    margin-left: 29vmin;
+    padding-top: 3.5vh;
+    font-size: 4.5vmin;
+    color: #0D1821;
+}
+.complete-about-con{
+     height: 88vh;
+    width: auto;
+    background-color: #0D1821;
+    display: flex;
+    color: #F0F4EF;
+    justify-content: center;
+    align-items: center;
+}
+.about-con-details{
+    height: 65vh;
+    width: 50vw;
+}
+.my-details-about{
+    padding-top: 11vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 4.5vmin;
+}
+.about-me-button{
+    height: 7vh;
+    width: 10vw;
+    margin-left: 8vw;
+    margin-top: 7vh;
+    font-size: 3vmin;
+    background-color: #BFCC94;
+    border-radius:25px;
+}
+.about-cont-ima{
+    height: 50vh;
+    width: 30vw;
+    margin-left: 5vw;
+    background-color: white;
+    background-image: url('img344.jpg');
+    background-size: cover
+}
+.social-media-about{
+    position: relative;
+    margin-left: 3vw;
+    display: grid;
+    margin-top: -60vh;
+    padding-top: 4vh;
+    justify-content: center;
+    height: 25vh;
+    width: 2.5vw;
+    background-color: #BFCC94;
+}
+.about-me-con{
+    height: 90vh;
+    width: auto;
+    background-color: #0D1821;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-img{
+    height: 45vh;
+    width: 23vw;
+    background-color: aliceblue;
+    background-image: url('about-me-profile-img.jpg');
+    background-size: cover;
+    border: 2px solid #BFCC94;
+    border-radius: 10%;
+    
+}
+
+.about-me-details{
+    height: 45vh;
+    width: 50vw;
+    background-color:#445552;
+    margin-left: 5vw;
+
+}
+.about{
+    height: 5vh;
+    padding-top: 1.5vh;
+    padding-left: 1vw;
+    width: auto;
+    background-color: #1F2041;
+    color: #D0CEBA;
+}
+.about-line1{
+    
+    height: 1vh;
+    width: 20vw;
+    margin-top: 2vh;
+    background-color: #BFCC94;
+}
+.about-details{
+    height: 25vh;
+    width: auto;
+    padding-top: 1vh;
+    margin-top: 2vh;
+    color: #FAFFFD;
+    padding-left: 1vw;
+    background-color: #294D4A;
+
+}
+.about-line2{
+    height: 1vh;
+    width: auto;
+    margin-top: 2vh;
+    background-color: #BFCC94;
+}
+
+.complete-skill-con{
+    height: auto;
+    width: auto;
+    display: grid;
+    background-color: #575A5E;
+
+}
+.skills-hed{
+    height: 30vh;
+    width: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #F0F4EF;
+    justify-content: center;
+    font-size: 6.5vmin;
+}
+.skill-con-1{
+
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.front-end-skill{
+    height: 40vh;
+    width: 20vw;
+    box-shadow: 15px 15px 30px #253237,
+                -15px -15px 30px #253237;
+    background-color: #9DB4C0;
+}
+.back-end-skill{
+    height: 40vh;
+    width: 20vw;
+    margin-left: 4vw;
+    box-shadow: 15px 15px 30px #253237,
+                -15px -15px 30px #253237;
+    background-color: #C2DFE3;
+}
+.competitive-skill{
+    height: 40vh;
+    width: 20vw;
+    margin-left: 4vw;
+    box-shadow: 15px 15px 30px #253237,
+                -15px -15px 30px #253237;
+    background-color: #9DB4C0;
+}
+.AIML-skill{
+    height: 40vh;
+    width: 20vw;
+    margin-left: 4vw;
+    box-shadow: 15px 15px 30px #253237,
+                -15px -15px 30px #253237;
+    background-color: #C2DFE3;
+}
+.front-end-skill , .back-end-skill ,.competitive-skill ,  .AIML-skill{
+    padding-top: 2vh;
+}
+.font-size-main-skill{
+    font-size: 2rem;
+    padding-left: 4vw;
+    
+}
+.font-size-main-skill-detail{
+    justify-content: center;
+    padding-top: 2vh;
+    align-items: center;
+    font-size: 2.5vmin;
+    padding-left: 1vw;
+}
+.skill-con-2{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4vh;
+
+}
+.languages-png{
+    height: 15vh;
+    width: 20vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    background-image: url('OIP\ html\ css.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+.competitive-languages-png{
+    height: 35vh;
+    width: 30vw;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    background-image: url('Programming-Language-Transparent-Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.AI-png{
+
+    height: 40vh;
+    width: 30vw;
+    background-image: url('AI-PNG-Isolated-Image.png');
+    background-size: cover;
+
+}
+
+.work-experience-con{
+    height: auto;
+    width: auto;
+    background-color: #222823;
+    display: grid;
+    align-items: center;
+}
+.my-work-hed{
+        height: 30vh;
+        width: auto;
+        display: flex;
+        text-align: center;
+        color: #F0F4EF;
+        align-items: center;     
+        justify-content: center;
+        font-size: 5.5vmin;
+}
+.work-con-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-con-2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+    margin-top: 15vh;
+    align-items: center;
+    margin-bottom: 15h;
+    
+}
+.works{
+    margin-left: 10vw;
+}
+.contact-me-con{
+    height: 60vh;
+    width: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #575A5E;
+    border: 2px solid #BFCC94;
+
+}
+.contact-me-name{
+    height: 8vh;
+    width: 18vw;
+    background-color: #BFCC94; 
+    font-size: 4.5vmin;
+    margin-top: -6vh;
+    padding-top: 2vh;
+    margin-left: 25vw;
+    justify-content: center;
+     text-align: center;
+
+}
+.contact-phone-no-mail{
+    height: 8vh;
+    width: 70vw;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+.contact-mail{
+
+    height: 8vh;
+    width: 30vw;
+    font-size: 4vmin;
+    text-decoration: none;
+    
+
+}
+.contact-phone{
+    height: 8vh;
+    width: 30vw;
+    margin-left: 7vw;
+    font-size: 4vmin;
+
+}
+.contact-location{
+    height: 8vh;
+    width: 35vw;
+    margin-top: 13vh;
+    margin-left: 19vw;
+    font-size: 4vmin;
+
+}
+.social-media-conatact{
+    position: relative;
+    height: 4vh;
+    width: 15vw;
+    display: flex;
+    margin-top: 16vh;
+    margin-left: 28vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFCC94;
+}
+.logo-contact{
+    font-size: 2vmin;
+    padding-left: 2vw;
+
+}
+.thanks-con{
+    height: 40vh;
+    width: auto;
+    background-color: #253237;
+
+}
+.thanks{
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 8vmin;
+    color: #BFCC94;
+}
+
+.card {
+    position: relative;
+    width: 18vw;
+    height: 25vh;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img344.jpg');
+    background-size: cover;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card1{
+    background-image: url('amazon-clone-work.png');
+    background-size: cover;
+  }
+  .card2{
+    background-image: url('coffee-beans-work.png');
+    background-size: cover;
+
+  }
+  .card3{
+    background-image: url('tic-tac-work.png');
+    background-size: cover;
+  }
+  
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 3vmin;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 1.8vmin;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+ @media  screen  and (  max-width : 1200px ){
+   
+    .navbar-text-name{
+        display: none;
+    }
+    .complete-about-con{
+        height: auto;
+        width: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-con-details{
+        height: auto;
+        width: 60vw;
+        
+    }
+    .my-details-about{
+        padding-top: 15vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        font-size: 4.5vmin;
+        margin-top: -4vh;
+    }
+    .about-me-button{
+        height: 5vh;
+        width: 25vw;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        font-size: 3.5vmin;
+        background-color: #BFCC94;
+        border-radius:25px;
+    }
+    .about-cont-ima{
+        height: 40vh;
+        width: 60vw;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    .social-media-about{
+        display: none;
+    }
+    .about-me-con{
+        height: auto;
+        width: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-me-img{
+        height: 50vh;
+        margin-top: 10vh;
+        width: 80vw;
+        background-image: url('about-me-profile-img.jpg');
+        background-size: cover;
+        
+    }
+    
+    .about-me-details{
+        height: auto;
+        width: 80vw;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+    
+    .about-line1{
+        width: 50vw;
+    }
+    .about-details{
+        height: auto;
+        width: auto;
+        padding-top: 1vh;
+        margin-top: 2vh;
+        padding-bottom: 4vh;
+        padding-left: 1vw;
+    
+    }
+    .about-line2{
+        height: 1vh;
+        width: auto;
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+    }
+    
+    .complete-skill-con{
+        height: auto;
+        width: auto;
+        display: grid;   
+    }
+   
+    .skill-con-1{
+    
+        height: auto;
+        width: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center; 
+        margin-top: -10vh;   
+        
+    }
+    .front-end-skill{
+        /* height: 35vh; */
+        width: auto;
+        height: auto;
+        margin: 6vh;
+    }
+    .back-end-skill{
+        /* height: 35vh; */
+        height: auto;
+        width: auto;
+        margin: 6vh;
+    }
+    .competitive-skill{
+        height: auto;
+        width: auto;
+        margin: 6vh;
+        
+    }
+    .AIML-skill{
+        /* height: 35vh; */
+        height: auto;
+        margin: 6vh;
+        width: auto;
+    }
+    .front-end-skill , .back-end-skill ,.competitive-skill ,  .AIML-skill{
+        padding-top: 2vh;
+
+    }
+    .font-size-main-skill{
+        font-size: 5vmin;
+        padding-left: 4vw;
+        
+    }
+    .font-size-main-skill-detail{
+        justify-content: center;
+        padding-top: 2vh;
+        align-items: center;
+        font-size: 3vmin;
+        padding-bottom: 1vh;
+        padding-left: 1vw;
+    }
+    .skill-con-2{
+        display: none;
+    }
+  
+    
+    .work-experience-con{
+        height: auto;
+        width: auto;
+        display: grid;
+        align-items: center;
+    }
+    .my-work-hed{
+            height: 21vh;
+            width: auto;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 5.5vmin;
+    }
+    .work-con-1 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -10vh;
+        /* margin-top: -9vh; */
+    }
+    .work-con-2{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 15vh;
+        margin-top: 15vh;
+        align-items: center;
+        margin-bottom: 15h;
+        margin-top: -1vh;
+        
+    }
+    .works{
+        margin-top: 7vh;
+        margin-left: 10vw;
+    }
+    /* .contact-me-con{
+    
+    } */
+    
+    .contact-me-name{
+        height: 5vh;
+        width: 45vw;
+        margin-top: -4vh;
+        margin-left: 15vw;
+    
+    }
+    .contact-phone-no-mail{
+        height: 8vh;
+        width: 70vw;
+        margin-top: 10vh;
+        display: grid;
+        justify-content: center;
+    
+    }
+    .contact-mail{
+    
+        height: 8vh;
+        width: 55vw;
+        text-decoration: none;
+    }
+    .contact-phone{
+        height: 8vh;
+        width: 55vw;
+        margin-top: 3vh;
+    
+    }
+    .contact-location{
+        height: 8vh;
+        width: 55vw;
+        margin-top: 13vh;
+    }
+
+    .social-media-conatact{
+        height: 4vh;
+        width: 45vw;
+        display: flex;
+        margin-left: 15vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-contact{
+        padding-left: 5vw;
+        font-size: 4.5vmin;
+    
+    }
+    .thanks-con{
+        height: 30vh;    
+    }
+
+      .card1{
+        width: 70vw;
+        height: 35vh;
+        background-image: url('amazon-clone-work.png');
+        background-size: cover;
+
+      }
+      .card2{
+        width: 70vw;
+        height: 35vh;
+        background-image: url('coffee-beans-work.png');
+        background-size: cover;
+
+      }
+      .card3{
+        width: 70vw;
+        height: 35vh;
+        background-image: url('tic\ tac\ mobile.png');
+        background-size: cover;
+      }
+      .card4,.card5,.card6{
+        width: 70vw;
+        height: 35vh;
+        display: none;
+
+      } 
+      .card__title{
+        font-size: 6vmin;
+      }
+      .card__description{
+        font-size: 5vmin;
+      }
+}  
